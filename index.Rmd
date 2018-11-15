@@ -86,13 +86,54 @@ class: inverse, center, middle
 
 ![](f4.jpg)
 
+---
+
+class: inverse, center, middle
+
+# Ели
+
+---
+
+![](f5.jpg)
+
+---
+
+![](f6.jpg)
+
+---
+
+![](f7.jpg)
+
+---
+
+![](f8.jpg)
 
 
 ---
 
+![](f9.jpg)
+
+---
+
+![](f10.jpg)
 
 
+---
+![](f14.jpg)
 
+---
+![](f13.jpg)
+
+---
+
+![](f12.jpg)
+
+
+---
+
+![](f15.jpg)
+
+---
 
 class: center, middle
 
