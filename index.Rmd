@@ -58,12 +58,6 @@ map.feature(df$lang,
 ```
 
 ---
-# Где?
-
-
-Красивые фоточки
-
----
 
 class: inverse, center, middle
 
@@ -79,6 +73,25 @@ class: inverse, center, middle
 - Относительные предложения, прилогательные, сбор словаря (Гарик)
 
 ---
+
+![](f1.jpg)
+
+---
+
+![](f2.jpg)
+---
+
+![](f3.jpg)
+---
+
+![](f4.jpg)
+
+
+
+---
+
+
+
 
 
 class: center, middle
