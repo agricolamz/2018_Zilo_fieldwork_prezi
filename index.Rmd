@@ -1,0 +1,96 @@
+---
+title: "bilotɬi isiblakːu"
+subtitle: "или как красиво в Дагестане"
+date: "2018/11/15 <br> Экспедиционный вечер <br> Школы лингвистики НИУ ВШЭ"
+output:
+  xaringan::moon_reader:
+    css: ["default", "my_theme.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(echo = FALSE,
+                      message=FALSE,
+                      warning= FALSE,
+                      fig.width=10.4,
+                      fig.height=7)
+library(tidyverse)
+library(lingtypology)
+```
+
+# Кто?
+
+- Айгуль Закирова
+- Нежъ Рошан
+- Гарик Мороз
+
+---
+class: inverse, center, middle
+
+# Где
+
+
+---
+
+# Где
+
+Зило (Ботлихский район республики Дагестана)
+
+**Андийский языки** < аваро-андийская группа < нахско-дагестанская семья
+
+```{r, fig.height=5}
+df <- read_tsv("villages2.csv")
+map.feature(df$lang, 
+            features = df$lang,
+            label = df$label,
+            label.hide = FALSE,
+            label.fsize = 19,
+            longitude = df$lon,
+            latitude = df$lat,
+            tile = "Stamen.TerrainBackground",
+            minimap = TRUE,
+            minimap.position = "topleft")
+```
+
+---
+# Где?
+
+
+Красивые фоточки
+
+---
+
+class: inverse, center, middle
+
+# Что
+
+
+---
+
+# Чем занимались
+
+- Аналитические каузативы, актантная структура глагола (Нэж)
+- Согласование, плюсквамперфект (Айгуль)
+- Относительные предложения, прилогательные, сбор словаря (Гарик)
+
+---
+
+
+class: center, middle
+
+# Спасибо за внимание!
+
+Слайды сделаны с использованием следующих пакетов:
+
+[**lingtypology**](https://ropensci.github.io/lingtypology/)
+
+[**xaringan**](https://github.com/yihui/xaringan)
+
+Наша презентация на GitHub:
+
+<https://agricolamz.github.io/2017_Zilo_fieldwork_prezi>
